@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Portfolio - Chiranjeeb Behera</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap');
+        body {
+            font-family: 'Poppins', sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(to right, #1e3c72, #2a5298);
+            color: white;
+            text-align: center;
+        }
+        .container {
+            max-width: 900px;
+            margin: 50px auto;
+            padding: 30px;
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 15px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            animation: fadeIn 1.5s ease-in-out;
+        }
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(-20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+        h1 {
+            color: #f7ff57;
+            font-size: 36px;
+            animation: bounceIn 1.5s ease-in-out;
+        }
+        @keyframes bounceIn {
+            0% { transform: scale(0.5); opacity: 0; }
+            50% { transform: scale(1.1); opacity: 1; }
+            100% { transform: scale(1); }
+        }
+        .profile-pic {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            border: 3px solid #000000bb;
+            margin-bottom: 20px;
+            animation: fadeIn 2s ease-in-out;
+        }
+        .section {
+            margin-bottom: 30px;
+        }
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+        li {
+            margin: 10px 0;
+            padding: 10px;
+            background: rgba(255, 255, 255, 0.2);
+            border-radius: 5px;
+        }
+        .btn {
+            display: inline-block;
+            padding: 12px 25px;
+            background-color: #ff4757;
+            color: white;
+            text-decoration: none;
+            font-size: 18px;
+            border-radius: 25px;
+            transition: 0.3s;
+            text-align: center;
+        }
+        .btn:hover {
+            background-color: #e84118;
+            transform: scale(1.1);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <img src="mp.jpeg" alt="Chiranjeeb Behera" class="profile-pic">
+        <h1>Chiranjeeb Behera</h1>
+        <p>Bhoisahi, Matiganj, Balasore, Odisha, 756001</p>
+        <p>Email: chiranjeeb966@gmail.com | Phone: 8260961924</p>
+        
+        <div class="section">
+            <h2>Education</h2>
+            <ul>
+                <li><strong>B.Tech in CSE</strong> - Sikhsa 'O' Anusandhan University (CGPA: 7.01)</li>
+                <li><strong>12th Grade</strong> - D.A.V. Public School (73%)</li>
+                <li><strong>10th Grade</strong> - Modern Public School (77%)</li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2>Skills</h2>
+            <ul>
+                <li>Java, Python</li>
+                <li>HTML (Frontend Development)</li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2>Certifications</h2>
+            <p>Internship on Data Science using Python at Acmegrade</p>
+        </div>
+
+        <div class="section">
+            <h2>Projects</h2>
+            <ul>
+                <li><strong>Web Development</strong> - Frontend Developer (<a href="https://drive.google.com/drive/folders/1w8OUnU9h-Qr52orQCMg4ZNoaTekKBo_0?usp=drive_link" target="_blank">Project Link</a>)</li>
+                <li><strong>CRUD Website</strong> - Built using Python</li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2>Concepts</h2>
+            <ul>
+                <li>Computer Networking</li>
+                <li>Operating System</li>
+                <li>Object Oriented Programming</li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2>Co-Curricular Activities</h2>
+            <ul>
+                <li>Cricket</li>
+                <li>Badminton</li>
+            </ul>
+        </div>
+
+        <a href="index.html" class="btn">Back to Home</a>
+    </div>
+</body>
+</html>
